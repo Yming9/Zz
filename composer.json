@@ -1,0 +1,30 @@
+{
+  "name": "Zz/zzGd",
+  "description": "php+gd+img chuli",
+  "keywords": [
+    "Zz",
+    "Gd"
+  ],
+  "homepage": "https://github.com/Yming9/Zz",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Zz",
+      "homepage": "https://github.com/Yming9/Zz.git",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php" : ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Zz\\ZzGd\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "pst-4": {
+      "Zz\\ZzGd\\": "test"
+    }
+  }
+}
